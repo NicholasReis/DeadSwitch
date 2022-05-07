@@ -1,0 +1,72 @@
+html{
+	background-color:red;
+        background-image: url("res/deadswitch background.jpg");
+        //background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+#menu{
+	margin-left: 20%;
+	margin-right: 20%;
+        text-align:center;
+        border-style:inset;
+        margin-top: 20px;
+        width:auto;
+        height:auto;
+        border-radius:30px;
+        padding:20px;
+        background-color:white;
+        color:black;
+}
+
+#start-message{
+	width:60%;
+	height:auto;
+	margin:auto;
+	background:white;
+	padding:15px;
+	border-radius:30px;
+}
+
+#menu form{
+	display:inline;
+}
+
+#message-table{
+        padding:5px;
+}
+
+.message-view{
+	margin:10px;
+	padding:10px;
+	width:300px;
+	height:400px;
+	overflow: hidden;
+	overflow: scroll;
+	display:inline-block;
+}
+
+.message-view h3{
+	text-align:center;
+}
+
+#heading-title{
+	text-align:center;
+	margin-top:5%;
+}
+
+.count-down-timer{
+	text-align:center;
+	margin:15px;
+	display:inline;
+	
+}
+
+.delete-button{
+	float:right;
+}
+
+.edit-button{
+	float:left;
+}
